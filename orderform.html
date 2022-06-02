@@ -1,10 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Casket Corral</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="orderform.css">
+  <link rel="stylesheet">
+</head>
+
+
+
+
+
 <section class="order-form my-4 mx-4">
     <div class="container pt-4">
 
       <div class="row">
         <div class="col-12">
           <h1>Casket Order Form</h1>
-          <span>with some explanation below</span>
           <hr class="mt-1">
         </div>
         <div class="col-12">
@@ -20,54 +35,58 @@
               <input class="order-form-input" placeholder="Last">
             </div>
           </div>
+          <br>
 
           <div class="row mt-3 mx-4">
             <div class="col-12">
-              <label class="order-form-label">Type of thing you want to order</label>
+              <label class="order-form-label">Casket Selection</label>
             </div>
             <div class="col-12">
-              <input class="order-form-input" placeholder=" ">
+              <div class="control">
+                <label class="radio">
+                  <input type="radio" name="rsvp">
+                  The Trusty Steed
+                </label>
+                <label class="radio">
+                  <input type="radio" name="rsvp">
+                  The Calamity Jane
+                </label>
+                <label class="radio" disabled>
+                  <input type="radio" name="rsvp">
+                  The Whipper Snapper
+                </label>
+              </div>
             </div>
           </div>
-
-          <div class="row mt-3 mx-4">
-            
-            <div class="col-12">
-              <input class="order-form-input" placeholder=" ">
-            </div>
-          </div>
-
+        <br>
           <div class="row mt-3 mx-4">
             <div class="col-12">
-              <label class="order-form-label" for="date-picker-example">Date</label>
+              <label class="order-form-label" for="date-picker-example">Date of funeral</label>
             </div>
             <div class="col-12">
-              <input class="order-form-input datepicker" placeholder="Selected date" type="text"
+              <input class="order-form-input datepicker" placeholder="Select date" type="text"
                 id="date-picker-example">
             </div>
           </div>
-
+          <br>
           <div class="row mt-3 mx-4">
             <div class="col-12">
-              <label class="order-form-label">Adress</label>
+              <label class="order-form-label">Address</label>
             </div>
             <div class="col-12">
               <input class="order-form-input" placeholder="Street Address">
             </div>
             <div class="col-12 mt-2">
-              <input class="order-form-input" placeholder="Street Address Line 2">
+              <input class="order-form-input" placeholder="Apt/Suite">
             </div>
             <div class="col-12 col-sm-6 mt-2 pr-sm-2">
               <input class="order-form-input" placeholder="City">
             </div>
             <div class="col-12 col-sm-6 mt-2 pl-sm-0">
-              <input class="order-form-input" placeholder="Region">
+              <input class="order-form-input" placeholder="State">
             </div>
             <div class="col-12 col-sm-6 mt-2 pr-sm-2">
               <input class="order-form-input" placeholder="Postal / Zip Code">
-            </div>
-            <div class="col-12 col-sm-6 mt-2 pl-sm-0">
-              <input class="order-form-input" placeholder="Country">
             </div>
           </div>
 
@@ -89,4 +108,5 @@
         </div>
       </div>
     </div>
+  
   </section>

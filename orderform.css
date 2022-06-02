@@ -1,6 +1,15 @@
+
+
+body{
+  background-color: antiquewhite;
+}
+.radio{
+ padding-left: 35px;
+  
+}
 .order-form .container {
     color: #4c4c4c;
-    padding: 20px;
+    padding: 40px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
   }
 
@@ -12,7 +21,7 @@
 
   .order-form-input {
     width: 100%;
-    padding: 8px 8px;
+    padding: x 8px;
     border-width: 1px !important;
     border-style: solid !important;
     border-radius: 3px !important;
