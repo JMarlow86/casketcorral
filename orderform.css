@@ -4,9 +4,7 @@ body{
   background-color: antiquewhite;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
-#citystatezip{
-  padding-left: 30px;
-}
+
 .radio{
  padding-left: 35px;
   
@@ -38,7 +36,18 @@ body{
     background-color: transparent;
     border-color: #cccccc;
   }
+  .btn-submit{
+    color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: url(https://images.pexels.com/photos/220116/pexels-photo-220116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  }
 
   .btn-submit:hover {
+    color: #DFFA0C;
     background-color: #DFFA0C !important;
   }
