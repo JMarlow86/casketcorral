@@ -84,16 +84,17 @@ body {
   #navvy{
     padding-left: 320px;
     padding-top: 10px;
-  }
-  span{
-    font-size: 9.5pt;
-    color: rgb(93, 72, 72);
-    opacity: 50%;
     
    
   }
-  .copy {
-    padding-left: 20px;
-    padding-top: 580px;
-  }
   
+  footer{
+    color:red;
+    padding-left: 9px;
+    padding-top: 583px;
+    font-size: 9.5pt;
+    color: rgb(93, 72, 72);
+    opacity: 50%;
+    position: fixed;
+    
+  }
