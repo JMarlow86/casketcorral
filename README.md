@@ -4,7 +4,7 @@ ASSIGNMENT FOR PER-SCHOLAS FULL STACK JAVA
 https://github.com/JMarlow86
 
 SITE DESCRIPTION:
-This is a spoof website for a custom casket retailer. It enables the user to contact the retailer, read about the retailer, oreder a casket, and utilize a 
+This is a spoof website for a custom casket retailer. It enables the user to contact the retailer, read about the retailer, order a casket, and utilize a 
 random casket picker. 
 
 Requirements:
