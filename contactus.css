@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 html {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: monospace;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -18,7 +18,7 @@ button, select {
 
 button, input, select, textarea {
   color: #4c4c4c;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: monospace;
   margin: 0;
 }
 
@@ -45,7 +45,7 @@ form {
 }
 
 h1 {
-  font-family: Georgia, 'Times New Roman', Times, serif;  
+  font-family: monospace;  
   color: #4c4c4c;
   font-size: 32px;
   font-weight: 700;
@@ -165,7 +165,7 @@ textarea {
   color: 4c4c4c;
   cursor: pointer;
   display: inline-block;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: monospace;
   font-size: 0.875em;
   font-weight: bold;
   outline: none;
@@ -224,7 +224,7 @@ textarea {
 }
 
 #infoContainer{
-font-family: Georgia, 'Times New Roman', Times, serif;
+font-family: monospace;
 font-style: italic;
 color: black;
 border-top: solid 3px #4c4c4c;

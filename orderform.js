@@ -7,16 +7,28 @@ function play() {
 const dateObjectInput = document.querySelector<HTMLInputElement>('#date-object');
 const dateObjectValue = document.querySelector('#date-object-value');
 
+    
+var modal = document.getElementById("myModal");
 
 
+var btn = document.getElementById("myBtn");
 
 
-// function displayMessage() {
-//   var message = document.getElementById("btnSubmit");
-
-// Add a click event listener to the element.
-// Assign the event object to a variable in the function.
-// Set the event. target. style. color property to the specific text color.
+var span = document.getElementsByClassName("close")[0];
 
 
-    document.getElementById(btnSubmit).addEventListener("click", function () {alert(message); });
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
