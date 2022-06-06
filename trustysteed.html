@@ -20,44 +20,7 @@
             background-image: url("steed.svg");
             background-repeat: no-repeat;
             background-attachment: fixed;  
-            background-size: contain;
-            background-position: center;
-        }
-
-        #tbl{
-            padding-top: 400px;
-            padding-left: 200px;
-        }
-
-        .table {
-            border:4px solid #DFFA0C;
-            border-collapse:collapse;
-            padding:5px;
-            box-shadow: 10px 10px rgba(96, 50, 50, 0.229);
-        }
-
-        .table caption {
-            caption-side:top;
-            color: black;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            font-size: 25pt;
-            text-shadow: 5px 5px rgba(96, 50, 50, 0.229)
-        }
-
-        .table th {
-            color: black;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            border:4px solid #DFFA0C;
-            padding:5px;
-            background:#DFFA0C;
-        }
-
-        .table td {
-            color: black;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            border:4px solid #DFFA0C;
-            padding:5px;
-            background:#8F5D41;
+            background-size: cover;
         }
 
         .button {
@@ -73,8 +36,8 @@
             overflow: hidden;
             cursor: pointer;
             margin: 36px;
-            padding-top: 20px;
-            padding-bottom: 20px;
+            padding-top: 15px;
+            padding-bottom: 6px;
         }
             
         .button:active {
@@ -100,81 +63,36 @@
             background: url(https://images.pexels.com/photos/220116/pexels-photo-220116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
         
         }
-                
-        form{
-            padding-top: 20px;
-            padding-left: 55px;  
-        }
-            
-        
-
+      
     </style>
 <div class="container">   
     <div class="row" >
-        <div class="col-md-12">
+        <div class="col-md-3"></div>
+        <div class="col-md-3">
             <div class="button wood">
                 <div class="wrap">
-                    <a href="orderform.html"style="color: white;">Order Now!</a>
+                    <a href="orderform.html"style="color: #DFFA0C;">Order Now!</a>
                 </div>
             </div>
         </div>
-    </div>
-   
-
-    <div class="row" id="tbl">
-
-        
-        <div class="col-md-4">
+    
+        <div class="col-md-3">
+            <div class="button wood">
+                <div class="wrap">
+                    <a href="sizingguide.html"style="color: #DFFA0C;">Size Guide</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-md-3">
             <form>  
-                <input type="button" style="background-color: rgb(48, 33, 33); color:#DFFA0C;"value="Receive Condolences" onclick="play()">
+                <input type="button" style= "background: url(https://images.pexels.com/photos/220116/pexels-photo-220116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2); color:#DFFA0C; font-size: 24pt;font-weight: bolder; font-family: Georgia, 'Times New Roman', Times, serif; margin: 36px; padding-top: 20px; padding-bottom: 20px; -webkit-border-radius: 5px;
+                 -moz-border-radius: 5px; border-radius: 5px; "value="Receive Condolences" onclick="play()"> 
                 <audio id="audio" src="https://www.fesliyanstudios.com/play-mp3/6578"></audio>
               </form>
         </div>
     </div>
-
-        
-    <div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-md-4"></div>
-        <div class="col-md-4">
-            <table class="table">
-                <caption>Casket Sizing Guide</caption>
-                <thead>
-                        <tr>
-                            <th>Size</th>
-                            <th>Length</th>
-                            <th>Allowable Weight</th>
-                        </tr>
-                </thead>
-                    <tbody>
-                        <tr>
-                            <td>&nbsp;S</td>
-                            <td>&nbsp;5' - 5.5'</td>
-                            <td>&nbsp;< 170lbs</td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;M</td>
-                            <td>&nbsp;5.5' - 6'</td>
-                            <td>&nbsp;170-200lbs</td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;L</td>
-                            <td>&nbsp;6' - 6.5'</td>
-                            <td>&nbsp;200-230lbs</td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;XL</td>
-                            <td>&nbsp;6.5' - 7'</td>
-                            <td>&nbsp;230-260lbs</td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp;XXL</td>
-                            <td>&nbsp;7' - 7.5'</td>
-                            <td>&nbsp;<= 300lbs</td>
-                        </tr>
-                    <tbody>
-            </table>
-        </div>
+</div>
     </div>
 </div> 
 </body>
