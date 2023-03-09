@@ -82,9 +82,9 @@ body {
   }
 
   #navvy{
-    padding-left: 320px;
-    padding-top: 10px;
-    
+    display: flex;
+    margin-top: 11%;
+    margin-left: 50%;
    
   }
   
